@@ -36,6 +36,9 @@
                         <Private-Package>
                             de.deepamehta.plugins.multiclient
                         </Private-Package>
+			<Bundle-Activator>
+			    de.deepamehta.core.service.Plugin
+			</Bundle-Activator>
                     </instructions>
                 </configuration>
             </plugin>
