@@ -1,11 +1,14 @@
-The DeepaMehta 3 Multiclient
-============================
+DeepaMehta3 Audi-0h-Canvas Model
+================================
 
-The DeepaMehta3 Multiclient is a tiny multi purpose monolith scripted in javafx and therewith comes with the power of its underlying scene graph, a powerful .animation and .shape package for handcrated and scalable multi-media UIs.
+This plugin simply adds some necessary datafields to the resource resource of a deepamehta3 installation and therewith enables this, to distinct in mashups betweeen various origins of sound resources. Additionally it serves some fields for attaching meta-information, e.g. username of publisher.
 
-Technologically it is made of JavaFX Script and Java. It uses the gstreamer-java bride and therewith the oss GStreamer libraries for audio processing.
+DeepaMehta3 FX Canvas
+=====================
 
-This client helps everyone to script and deploy various styles of user interactions along rapid and evolutionary prototyping methods on top deepamehta3 the networked semantic desktop for nuts. What does it do? It helps you to get the foundations of your user interface right (to freely interpret Jef Raskin).
+The DeepaMehta3 FX Canvas is a tiny multi purpose monolith scripted in javafx and therewith comes with the power of its underlying scene graph plus a powerful .animation and .shape package for handcrafted multi-media UIs. The deepamehta3-fxcanvas makes use of this plugin as its application model.
+
+Technologically it is made of JavaFX Script and Java. It uses the gstreamer-java bridge with jna and therewith utilizes the oss gstreamer libraries for multimedia processing.
 
 <http://github.com/mukil/deepamehta3-multiclient>
 
