@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <name>DeepaMehta 3 Audi-0h-Canvas Model</name>
-    <groupId>de.deepamehta</groupId>
+    <groupId>org.deepamehta</groupId>
     <artifactId>dm3-audio-canvas-model</artifactId>
     <version>1.0</version>
     <packaging>bundle</packaging>
@@ -31,14 +31,14 @@
                 <configuration>
                     <instructions>
                         <Export-Package>
-                            de.deepamehta.plugins.multiclient.migrations
+                            org.deepamehta.plugins.audiocanvas.migrations
                         </Export-Package>
                         <Private-Package>
-                            de.deepamehta.plugins.multiclient
+                            org.deepamehta.plugins.audiocanvas
                         </Private-Package>
-			<Bundle-Activator>
-			    de.deepamehta.core.service.Plugin
-			</Bundle-Activator>
+                        <Bundle-Activator>
+                            de.deepamehta.core.service.Plugin
+                        </Bundle-Activator>
                     </instructions>
                 </configuration>
             </plugin>

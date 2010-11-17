@@ -17,7 +17,7 @@
  * version 3 along with this work. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.deepamehta.plugins.multiclient.migrations;
+package org.deepamehta.plugins.audiocanvas.migrations;
 
 import de.deepamehta.core.model.DataField;
 import de.deepamehta.core.model.TopicType;
@@ -48,7 +48,6 @@ public class Migration1 extends Migration {
         // 
         DataField audioVendorField = new DataField("Origin", "text");
         audioVendorField.setUri("org/deepamehta/audio/property/Origin");
-        audioVendorField.setLabel("Origin");
         audioVendorField.setRendererClass("TextFieldRenderer");
         audioVendorField.setEditor("single line");
         audioVendorField.setIndexingMode("KEY");
@@ -56,7 +55,6 @@ public class Migration1 extends Migration {
         //
         DataField originIdField = new DataField("OriginId", "text");
         originIdField.setUri("org/deepamehta/audio/property/OriginId");
-        originIdField.setLabel("OriginId");
         originIdField.setRendererClass("TextFieldRenderer");
         originIdField.setEditor("single line");
         originIdField.setIndexingMode("KEY");
@@ -64,7 +62,6 @@ public class Migration1 extends Migration {
         //
         DataField previewImageField = new DataField("PreviewImage", "text");
         previewImageField.setUri("org/deepamehta/audio/property/PreviewImage");
-        previewImageField.setLabel("PreviewImage");
         previewImageField.setRendererClass("TextFieldRenderer");
         previewImageField.setEditor("single line");
         previewImageField.setIndexingMode("KEY");
@@ -72,14 +69,12 @@ public class Migration1 extends Migration {
         //
         DataField artworkUrl = new DataField("Artwork", "html");
         artworkUrl.setUri("org/deepamehta/audio/property/Artwork");
-        artworkUrl.setLabel("Artwork");
         artworkUrl.setRendererClass("HTMLFieldRenderer");
         artworkUrl.setIndexingMode("FULLTEXT_KEY");
         file.addDataField(artworkUrl);
         //
         DataField audioDescription = new DataField("Description", "text");
         audioDescription.setUri("org/deepamehta/audio/property/Description");
-        audioDescription.setLabel("Description");
         audioDescription.setEditor("single line");
         audioDescription.setRendererClass("TextFieldRenderer");
         audioDescription.setIndexingMode("FULLTEXT");
@@ -87,7 +82,6 @@ public class Migration1 extends Migration {
         //
         DataField publisherAlias = new DataField("Publisher", "text");
         publisherAlias.setUri("org/deepamehta/audio/property/Publisher");
-        publisherAlias.setLabel("Publisher");
         publisherAlias.setEditor("single line");
         publisherAlias.setRendererClass("TextFieldRenderer");
         publisherAlias.setIndexingMode("KEY");
